@@ -55,3 +55,23 @@ INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience)
     VALUES ("Wizards", "SG", "Florida", 2012,11);
 INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
     VALUES ("Wizards", "SF", "Utah", 2017,7);
+
+
+/*Identify NBA players with their current team and pre draft team starrting with players with the most experience*/
+
+SELECT a.name AS "Player", b.team AS "Current Team", b.pre_NBA_team AS "Pre-Draft Team", b.experience
+FROM players a
+JOIN player_history b
+ON a.id=b.id
+ORDER BY experience desc;
+
+
+/*Identify NBA players who weigh less than 200 lbs, was drafted after 2015, and in order of youngest to oldest*/
+
+SELECT a.name AS "Players", a.weight, b.draft_year AS "Year Drafted", a.age
+FROM players a
+JOIN player_history b
+ON a.id=b.id
+WHERE a.weight < 200 AND b.draft_year > 2015
+ORDER BY age ASC;
+    
