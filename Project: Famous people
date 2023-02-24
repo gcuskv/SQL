@@ -7,7 +7,7 @@ CREATE TABLE players (id INTEGER PRIMARY KEY,
     
 
 INSERT INTO players (name, height,weight,age) 
-    VALUES ("Lebron James", "6""8", 250, 37);
+    VALUES ("Lebron James", "6""8", 250, 38);
 INSERT INTO players (name, height,weight,age) 
     VALUES ("Anthony Davis", "6""10", 253, 29);
 INSERT INTO players (name, height,weight,age) 
