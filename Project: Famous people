@@ -1,0 +1,28 @@
+/* Create table about the people and what they do here */
+CREATE TABLE players (id INTEGER PRIMARY KEY,
+    name TEXT,
+    height TEXT,
+    weight INTEGER,
+    age INTEGER);
+    
+
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Lebron James", "6""8", 250, 37);
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Anthony Davis", "6""10", 253, 29);
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Fred VanVleet", "6""0", 197, 28);
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Pascal Siakam", "6""8", 230,28 );
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("De'Aaron Fox", "6""3", 185, 24);
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Domantas Sabonis", "7""1", 240, 26);
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Damian Lillard", "6""2", 195, 32);
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Afernee Simons", "6""3", 180, 23);
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Bradley Beal", "6""4", 210, 29);
+INSERT INTO players (name, height,weight,age) 
+    VALUES ("Kyle Kuzma", "6""9", 220, 27);
