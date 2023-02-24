@@ -26,3 +26,32 @@ INSERT INTO players (name, height,weight,age)
     VALUES ("Bradley Beal", "6""4", 210, 29);
 INSERT INTO players (name, height,weight,age) 
     VALUES ("Kyle Kuzma", "6""9", 220, 27);
+    
+    
+CREATE TABLE player_history (id INTEGER PRIMARY KEY,
+team TEXT,
+position TEXT,
+pre_NBA_team TEXT,
+draft_year INTEGER,
+experience INTEGER);
+
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Lakers", "SF", "St. Vincent–St. Mary", 2003,20);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Lakers", "PF", "Kentucky", 2012,11);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Raptors", "PG", "Wichits State", 2016,8);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Raptors", "PF", "New Mexico State", 2016,8);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Kings", "PG", "Kentucky", 2017,7);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Kings", "C", "Gonzaga", 2016,8);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Trailblazers", "PG", "Weber State", 2012,11);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Trailblazers", "SG", "IMG Academy", 2018,6);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Wizards", "SG", "Florida", 2012,11);
+INSERT INTO player_history (team, position, pre_NBA_team,draft_year, experience) 
+    VALUES ("Wizards", "SF", "Utah", 2017,7);
